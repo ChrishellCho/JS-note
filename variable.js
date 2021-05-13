@@ -1,4 +1,4 @@
-// 2. Variable
+// 2. Variable, rw(read/write)
 // Mutable
 // let (added in ES6)
 
@@ -22,7 +22,7 @@ age = 4;
 console.log(age);
 var age;
 
-// 3. Constants
+// 3. Constant, r(read only)
 // use const whenever possible.
 // only use let if variable needs to change.
 const daysInWeek = 7;
