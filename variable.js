@@ -14,7 +14,7 @@ let globalName = "global name"; // 최소한으로 쓰는 것이 좋음
 console.log(name);
 console.log(globalName);
 
-//var (don't ever usr this!)
+//var (don't ever use this!)
 //var hoisting(어디에 선언했냐는 상관없이 선언을 제일 위로 끌어 올려주는 것)
 //has no block scope
 console.log(age);
@@ -47,7 +47,7 @@ const size = 17.1; // decimal number
 console.log(`value: ${count}, type: ${typeof count}`);
 console.log(`value: ${size}, type: ${typeof size}`);
 
-// number - speicla numeric values: infinity, -infinity, NaN
+// number - special numeric values: infinity, -infinity, NaN
 const infinity = 1 / 0;
 const negativeInfinity = -1 / 0;
 const nAn = "not a number" / 2;
